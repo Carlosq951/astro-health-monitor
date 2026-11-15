@@ -30,6 +30,7 @@ ENV/
 *.db-journal
 *.db-shm
 *.db-wal
+local_buffer.db*
 
 # Archivos de sistema operativo
 .DS_Store
@@ -47,3 +48,6 @@ state.json
 data/*.db
 data/*.db-*
 models/*.tflite
+
+# Añadido desde GitHub
+*.pyc
